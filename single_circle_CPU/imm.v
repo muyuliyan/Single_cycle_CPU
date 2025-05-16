@@ -1,5 +1,5 @@
 module imm(
-    input [31: 0] instr,
+    input [31: 0] instruction,
     input [2: 0] extOP,
 
     output reg [31: 0] imm_32
